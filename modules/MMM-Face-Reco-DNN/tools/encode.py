@@ -1,6 +1,7 @@
 # USAGE
 # python encode_faces.py --dataset dataset --encodings encodings.pickle
-
+import sys
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
 # import the necessary packages
 from imutils import paths
 import face_recognition

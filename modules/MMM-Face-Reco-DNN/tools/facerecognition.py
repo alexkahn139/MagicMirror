@@ -1,6 +1,7 @@
 # USAGE
 # python pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings encodings.pickle
-
+import sys
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
 # import the necessary packages
 from stream import VideoStream
 from imutils.video import FPS
@@ -12,7 +13,6 @@ import pickle
 import time
 import cv2
 import json
-import sys
 import signal
 import os
 

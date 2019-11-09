@@ -115,7 +115,7 @@ var config = {
         // Pre encoded pickle with the faces
         encodings: 'modules/MMM-Face-Reco-DNN/tools/encodings.pickle',
         // You wanna use pi camera or usb / builtin (1 = raspi camera, 0 = other camera)
-        usePiCamera: 0,
+        usePiCamera: 1,
         // Method of face detection (dnn = deep neural network, haar = haarcascade)
         method: 'dnn',
         // Which face detection model to use. "hog" is less accurate but faster on CPUs. "cnn" is a more accurate deep-learning model which is GPU/CUDA accelerated (if available).
