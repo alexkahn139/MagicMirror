@@ -99,6 +99,11 @@ var config = {
       classes: 'default everyone'
     },
     {
+      module: 'MMM-toothbrush',
+      position: 'bottom_left',
+      classes: 'default everyone'
+    },
+    {
       module: 'MMM-Face-Reco-DNN',
       config: {
         // Logout 15 seconds after user was not detecte anymore, if they will be detected between this 15 Seconds, they delay will start again
