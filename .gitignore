@@ -71,6 +71,9 @@ Temporary Items
 !/modules/default/**
 !/modules/MMM-Face-Reco-DNN
 !/modules/MMM-Face-Reco-DNN/**
+!/modules/MMM-*
+!/modules/MMM-Toothbrush
+!/modules/MMM-Toothbrush/**
 !/modules/README.md**
 
 # Ignore changes to the custom css files.
